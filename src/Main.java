@@ -31,11 +31,11 @@ public class Main {
         System.out.println("Задача 2");
         float myFloat = 27.12f;
         long myLong = 987678965549l;
-        float myFloat2 = 2.786f;
-        int myInt2 = 569;
-        int myInt3 = -159;
-        int myInt4 = 27897;
-        int myInt5 = 67;
+        double myDouble = 2.786;
+        int myInt = 569;
+        short myShort = -159;
+        int myInt2 = 27897;
+        byte myByte = 67;
     }
     public static void task3()
     {
