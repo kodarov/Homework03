@@ -78,6 +78,21 @@ public class Main {
 
     public static void task6() {
         System.out.println("Задача 6");
+        // количество продуктов
+        int bananas = 5;
+        int milk = 200;
+        int iceCream = 2;
+        int eggs = 4;
+        // вес продуктов
+        int bananasWeight = 5 * 80;
+        int milkWeight = (200 / 100) * 105;
+        int iceCreamWeight = 2 * 100;
+        int eggsWeight = 4 * 70;
+        int AllWeight = bananasWeight + milkWeight + iceCreamWeight + eggsWeight;
+        System.out.println("Вес коктеля в граммах - " + AllWeight);
+        System.out.println("Вес коктеля в килограммах - " + AllWeight / 1000 + "кг, а точнее " + (AllWeight / 1000.0) + "кг");
+
+
     }
 
     public static void task7() {
