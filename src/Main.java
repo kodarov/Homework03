@@ -40,6 +40,12 @@ public class Main {
     public static void task3()
     {
         System.out.println("Задача 3");
+        int studentClass1 = 23;
+        int studentClass2 = 27;
+        int studentClass3 = 30;
+        int paper = 480;
+        int paperStudent= paper/(studentClass1+studentClass2+studentClass3);
+        System.out.println("На каждого ученика рассчитано " +paperStudent+" листов бумаги");
     }
     public static void task4()
     {
