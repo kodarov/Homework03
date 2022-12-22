@@ -1,6 +1,5 @@
 public class Main {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         task1();
         task2();
         task3();
@@ -10,8 +9,8 @@ public class Main {
         task7();
         task8();
     }
-    public static void task1()
-    {
+
+    public static void task1() {
         System.out.println("Задача 1");
         byte myByte = 100;
         short myShort = 10000;
@@ -26,8 +25,8 @@ public class Main {
         System.out.println("Значение переменной myFloat с типом float равно " + myFloat);
         System.out.println("Значение переменной myDouble с типом double равно " + myDouble);
     }
-    public static void task2()
-    {
+
+    public static void task2() {
         System.out.println("Задача 2");
         float myFloat = 27.12f;
         long myLong = 987678965549l;
@@ -37,46 +36,55 @@ public class Main {
         int myInt2 = 27897;
         byte myByte = 67;
     }
-    public static void task3()
-    {
+
+    public static void task3() {
         System.out.println("Задача 3");
         int studentClass1 = 23;
         int studentClass2 = 27;
         int studentClass3 = 30;
         int paper = 480;
-        int paperStudent= paper/(studentClass1+studentClass2+studentClass3);
-        System.out.println("На каждого ученика рассчитано " +paperStudent+" листов бумаги");
+        int paperStudent = paper / (studentClass1 + studentClass2 + studentClass3);
+        System.out.println("На каждого ученика рассчитано " + paperStudent + " листов бумаги");
     }
-    public static void task4()
-    {
+
+    public static void task4() {
         System.out.println("Задача 4");
         byte speedMachine = 16;
         byte timeMachine = 2;
         int speed = speedMachine / timeMachine;
-        int speedTime1=20*speed;
-        int speedTime2=60*24*speed;
-        int speedTime3=60*24*3*speed;
-        int speedTime4=60*24*30*speed;
+        int speedTime1 = 20 * speed;
+        int speedTime2 = 60 * 24 * speed;
+        int speedTime3 = 60 * 24 * 3 * speed;
+        int speedTime4 = 60 * 24 * 30 * speed;
         System.out.println("За 20 минут машина произвела " + speedTime1 + " штук бутылок");
         System.out.println("За сутки машина произвела " + speedTime2 + " штук бутылок");
         System.out.println("За 3 дня машина произвела " + speedTime3 + " штук бутылок");
         System.out.println("За 1 месяц машина произвела " + speedTime4 + " штук бутылок");
 
     }
-    public static void task5()
-    {
+
+    public static void task5() {
         System.out.println("Задача 5");
+        int jars = 120;
+        int jarWhiteToClass = 2;
+        int jarBrownToClass = 4;
+        int sumJarsToClasses = jarBrownToClass + jarWhiteToClass;
+        int sumClasses = jars / sumJarsToClasses;
+        int sumJarWhite = sumClasses * jarWhiteToClass;
+        int sumJarBrown = sumClasses * jarBrownToClass;
+        System.out.println("В школе, где " + sumClasses + " классов, нужно " + sumJarWhite + " банок белой краски и " + sumJarBrown + " банок коричневой краски");
+
     }
-    public static void task6()
-    {
+
+    public static void task6() {
         System.out.println("Задача 6");
     }
-    public static void task7()
-    {
+
+    public static void task7() {
         System.out.println("Задача 7");
     }
-    public static void task8()
-    {
+
+    public static void task8() {
         System.out.println("Задача 8");
     }
 }
