@@ -95,8 +95,19 @@ public class Main {
 
     }
 
-    public static void task7() {
+    public static void task7()
+    {
         System.out.println("Задача 7");
+        float weight = 7f;
+        float diet1 = 0.250f;
+        float diet2 = 0.500f;
+        float dietMean = (diet1+diet2)/2;
+        int dayDiet1 =(int) (weight/diet1);
+        int dayDiet2 =(int) (weight/diet2);
+        int dayDietMean = (int) (weight/dietMean);
+        System.out.println("Если терять по " + (int)(diet1*1000) + " гр то потребуется "+ dayDiet1 + " дней");
+        System.out.println("Если терять по " + (int)(diet2*1000) + " гр то потребуется "+ dayDiet2 + " дней");
+        System.out.println("В средней потребуется "+ dayDietMean +" дняей");
     }
 
     public static void task8() {
