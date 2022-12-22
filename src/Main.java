@@ -13,7 +13,18 @@ public class Main {
     public static void task1()
     {
         System.out.println("Задача 1");
-
+        byte myByte = 100;
+        short myShort = 10000;
+        int myInt = 100000000;
+        long myLong = 1000000000000000L;
+        float myFloat = 0.00001f;
+        double myDouble = 0.100000000000000000000000001;
+        System.out.println("Значение переменной myByte с типом byte равно " + myByte);
+        System.out.println("Значение переменной myShort с типом short равно " + myShort);
+        System.out.println("Значение переменной myInt с типом int равно " + myInt);
+        System.out.println("Значение переменной myLong с типом long равно " + myLong);
+        System.out.println("Значение переменной myFloat с типом float равно " + myFloat);
+        System.out.println("Значение переменной myDouble с типом double равно " + myDouble);
     }
     public static void task2()
     {
