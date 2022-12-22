@@ -16,7 +16,7 @@ public class Main {
         byte myByte = 100;
         short myShort = 10000;
         int myInt = 100000000;
-        long myLong = 1000000000000000L;
+        long myLong = 1000000000000000l;
         float myFloat = 0.00001f;
         double myDouble = 0.100000000000000000000000001;
         System.out.println("Значение переменной myByte с типом byte равно " + myByte);
@@ -29,6 +29,13 @@ public class Main {
     public static void task2()
     {
         System.out.println("Задача 2");
+        float myFloat = 27.12f;
+        long myLong = 987678965549l;
+        float myFloat2 = 2.786f;
+        int myInt2 = 569;
+        int myInt3 = -159;
+        int myInt4 = 27897;
+        int myInt5 = 67;
     }
     public static void task3()
     {
