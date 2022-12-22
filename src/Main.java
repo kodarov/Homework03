@@ -112,5 +112,14 @@ public class Main {
 
     public static void task8() {
         System.out.println("Задача 8");
+        float zp1=67760f, zp2=83690f, zp3=76230f;
+        float bonus = 0.1f;
+        float zpBonus1 = zp1 + zp1*bonus;
+        float zpBonus2 = zp2 + zp2*bonus;
+        float zpBonus3 = zp3 + zp3*bonus;
+        System.out.println("Маша получает теперь " + (int)zpBonus1 + " руб, годовой прирост составил "+ 12*(int)(zpBonus1-zp1) +" руб");
+        System.out.println("Денис получает теперь " + (int)zpBonus2 + " руб, годовой прирост составил "+ 12*(int)(zpBonus2-zp2) +" руб");
+        System.out.println("Кристина получает теперь " + (int)zpBonus3 + " руб, годовой прирост составил "+ 12*(int)(zpBonus3-zp3) +" руб");
+
     }
 }
