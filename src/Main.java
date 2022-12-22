@@ -65,9 +65,9 @@ public class Main {
 
     public static void task5() {
         System.out.println("Задача 5");
-        int jars = 120;
-        int jarWhiteToClass = 2;
-        int jarBrownToClass = 4;
+        byte jars = 120;
+        byte jarWhiteToClass = 2;
+        byte jarBrownToClass = 4;
         int sumJarsToClasses = jarBrownToClass + jarWhiteToClass;
         int sumClasses = jars / sumJarsToClasses;
         int sumJarWhite = sumClasses * jarWhiteToClass;
@@ -79,15 +79,15 @@ public class Main {
     public static void task6() {
         System.out.println("Задача 6");
         // количество продуктов
-        int bananas = 5;
-        int milk = 200;
-        int iceCream = 2;
-        int eggs = 4;
+        byte bananas = 5;
+        short milk = 200;
+        byte iceCream = 2;
+        byte eggs = 4;
         // вес продуктов
-        int bananasWeight = 5 * 80;
-        int milkWeight = (200 / 100) * 105;
-        int iceCreamWeight = 2 * 100;
-        int eggsWeight = 4 * 70;
+        short bananasWeight = 5 * 80;
+        short milkWeight = (200 / 100) * 105;
+        short iceCreamWeight = 2 * 100;
+        short eggsWeight = 4 * 70;
         int AllWeight = bananasWeight + milkWeight + iceCreamWeight + eggsWeight;
         System.out.println("Вес коктеля в граммах - " + AllWeight);
         System.out.println("Вес коктеля в килограммах - " + AllWeight / 1000 + "кг, а точнее " + (AllWeight / 1000.0) + "кг");
