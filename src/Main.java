@@ -107,7 +107,7 @@ public class Main {
         int dayDietMean = (int) (weight/dietMean);
         System.out.println("Если терять по " + (int)(diet1*1000) + " гр то потребуется "+ dayDiet1 + " дней");
         System.out.println("Если терять по " + (int)(diet2*1000) + " гр то потребуется "+ dayDiet2 + " дней");
-        System.out.println("В средней потребуется "+ dayDietMean +" дняей");
+        System.out.println("В средней потребуется "+ dayDietMean +" дней");
     }
 
     public static void task8() {
