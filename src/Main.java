@@ -50,6 +50,18 @@ public class Main {
     public static void task4()
     {
         System.out.println("Задача 4");
+        byte speedMachine = 16;
+        byte timeMachine = 2;
+        int speed = speedMachine / timeMachine;
+        int speedTime1=20*speed;
+        int speedTime2=60*24*speed;
+        int speedTime3=60*24*3*speed;
+        int speedTime4=60*24*30*speed;
+        System.out.println("За 20 минут машина произвела " + speedTime1 + " штук бутылок");
+        System.out.println("За сутки машина произвела " + speedTime2 + " штук бутылок");
+        System.out.println("За 3 дня машина произвела " + speedTime3 + " штук бутылок");
+        System.out.println("За 1 месяц машина произвела " + speedTime4 + " штук бутылок");
+
     }
     public static void task5()
     {
